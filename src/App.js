@@ -1,12 +1,11 @@
 import './App.css';
-import Login from './Login';
+import Login from './components/Login';
 import Register from './Register';
-import Forgotpass from './Forgotpass';
-import Resetpass from './Resetpass';
-import Urlshortner from './Urlshortner';
+import Forgotpass from './components/Forgotpass';
+import Resetpass from './components/Resetpass';
+import Urlshortner from './components/Urlshortner';
 import {Routes, Route} from 'react-router-dom';
-
-import Home from './Home';
+import Home from './components/Home';
 
 
 function App() {

@@ -59,27 +59,28 @@ export default function Register() {
           marginBottom: "20px",
         }}
       >
-          <TextField
+        <TextField
           id="outlined-password-input"
           label=" Password"
           type="password"
           autoComplete="current-password"
-          style={{ backgroundColor: "white",width:"500px"}}
-        /><br></br>
+          style={{ backgroundColor: "white", width: "500px" }}
+        />
+        <br></br>
       </Box>
       <br></br>
       <Button
-          style={{
-            fontFamily: "serif",
-            font: "Times New Roman",
-            width: "200px",
-            height: "50px",
-          }}
-          variant="contained"
-          color="success"
-        >
-          Sign Up
-        </Button>
+        style={{
+          fontFamily: "serif",
+          font: "Times New Roman",
+          width: "200px",
+          height: "50px",
+        }}
+        variant="contained"
+        color="success"
+      >
+        Sign Up
+      </Button>
     </div>
   );
 }

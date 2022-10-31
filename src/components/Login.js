@@ -5,7 +5,7 @@ import TextField from "@mui/material/TextField";
 import { useNavigate } from "react-router-dom";
 
 function Login() {
-  const Navigate=useNavigate();
+  const Navigate = useNavigate();
   return (
     <div>
       <h1
@@ -40,14 +40,15 @@ function Login() {
         <br></br>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
-        <TextField
-          id="outlined-password-input"
-          label="Enter your password"
-          type="password"
-          autoComplete="current-password"
-          style={{ backgroundColor: "white", width: "400px",margin:"20px" }}
-        />
-          <br></br><br></br>
+          <TextField
+            id="outlined-password-input"
+            label="Enter your password"
+            type="password"
+            autoComplete="current-password"
+            style={{ backgroundColor: "white", width: "400px", margin: "20px" }}
+          />
+          <br></br>
+          <br></br>
           <a href="/forgotpassword">Forgot Password?</a>
         </Form.Group>
         <br></br>
@@ -64,7 +65,7 @@ function Login() {
         </Form.Group>
         <br></br>
         <Button
-        onClick={()=>Navigate("/urlshortner")}
+          onClick={() => Navigate("/urlshortner")}
           style={{
             fontFamily: "serif",
             font: "Times New Roman",
@@ -78,7 +79,6 @@ function Login() {
         </Button>
       </Form>
     </div>
-    
   );
 }
 
